@@ -29,7 +29,6 @@ public class Messages {
 		String val = keys.nextElement();
 		boolean found = false;
 		while ((found == false) && (val != null)) {
-			//System.out.println(val + ": " + RESOURCE_BUNDLE.getString(val) + " : " + value);
 			if (RESOURCE_BUNDLE.getString(val).contains(value))
 				found = true;
 			else
